@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CustomerAccountFacade {
     private List<Customer> clients;
-    private final String FilePath= "C:\\Users\\Василь\\IdeaProjects\\Paterns\\Paterns\\PatternsTask\\Account";
+    private final String FilePath= "Paterns/Account";
 
     public CustomerAccountFacade() {
         clients = new ArrayList<>();
